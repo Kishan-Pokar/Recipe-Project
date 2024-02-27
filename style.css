@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.navcontainer{
+    display: flex;
+    height: 100px;
+    width: 100%;
+    background-color: #000000;
+    background-image: linear-gradient(160deg, #000000 0%, #8085d0 100%);
+    justify-content: space-around;
+}
+
+.navcontent{
+    display: flex; 
+    align-items: center;
+    font-size: 40px;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    font-size: 45px;
+    
+}
+.contentContainer{
+    width: 50%;
+    height: 100%;
+    margin-left: 25%;
+    display: flex;
+    box-shadow: 0px 0px 30px black;
+    flex-wrap: wrap;
+}
+
+.dishes{
+    display: flex;
+    font-size: 15px;
+    margin: 5rem;
+}
+.ingredients{
+    margin: 1em;
+}
+
+.recipe{
+    margin: 1em;
+}
+
+.footercontainer{
+    background-color: #000000;
+    background-image: linear-gradient(160deg, #000000 0%, #8085d0 100%);
+    height: 75px;
+    font-size: 40px;
+    color: azure;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img{
+    height: 25em;
+    width: 15em;
+    border-radius: 1em;overflow: hidden;
+    transition: all 0.3s linear 0s;
+    box-shadow: 1px 1px 10px black;
+}
+img:hover{
+    transform: scale(1.1);
+}
+
+a{
+    color: azure;
+    margin: 20px;
+}
+h1{
+    color:azure;
+}
+
+h2{
+    font-size: 35px;
+}
